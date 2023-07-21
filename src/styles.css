@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.blur-on-scroll {
+    backdrop-filter: blur(10px); /* Ajusta el valor para la intensidad del blur */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con Safari */
+}
