@@ -34,14 +34,14 @@ export const Proyectos = () => {
         switch ( proyect ) {
             case 'balneario':
                 setSlides([
-                    { src: './assets/palapas/1.png' },
-                    { src: './assets/palapas/2.png' },
-                    { src: './assets/palapas/3.png' },
-                    { src: './assets/palapas/4.png' },
-                    { src: './assets/palapas/5.png' },
-                    { src: './assets/palapas/6.png' },
-                    { src: './assets/palapas/7.png' },
-                    { src: './assets/palapas/8.png' },
+                    { src: '../assets/palapas/1.png' },
+                    { src: '../assets/palapas/2.png' },
+                    { src: '../assets/palapas/3.png' },
+                    { src: '../assets/palapas/4.png' },
+                    { src: '../assets/palapas/5.png' },
+                    { src: '../assets/palapas/6.png' },
+                    { src: '../assets/palapas/7.png' },
+                    { src: '../assets/palapas/8.png' },
                 ]);
             break;
             case 'mit':
