@@ -22,6 +22,35 @@ import mysqlImg from '../assets/tecnologias/mysql.jpg';
 import dartImg from '../assets/tecnologias/dart.png';
 import flutterImg from '../assets/tecnologias/flutter.png';
 
+import palapas2 from '../assets/palapas/2.png';
+import palapas3 from '../assets/palapas/3.png';
+import palapas4 from '../assets/palapas/4.png';
+import palapas5 from '../assets/palapas/5.png';
+import palapas6 from '../assets/palapas/6.png';
+import palapas7 from '../assets/palapas/7.png';
+import palapas8 from '../assets/palapas/8.png';
+
+import mit2 from '../assets/mit/2.png';
+import mit3 from '../assets/mit/3.png';
+import mit4 from '../assets/mit/4.png';
+import mit5 from '../assets/mit/5.png';
+import mit6 from '../assets/mit/6.png';
+import mit7 from '../assets/mit/7.png';
+import mit8 from '../assets/mit/8.png';
+import mit9 from '../assets/mit/9.png';
+
+import taquito1 from '../assets/gastos/1.jpeg';
+import taquito2 from '../assets/gastos/2.jpeg';
+import taquito3 from '../assets/gastos/3.jpeg';
+import taquito4 from '../assets/gastos/4.jpeg';
+import taquito5 from '../assets/gastos/5.jpeg';
+import taquito6 from '../assets/gastos/6.jpeg';
+import taquito7 from '../assets/gastos/7.jpeg';
+import taquito8 from '../assets/gastos/8.jpeg';
+import taquito9 from '../assets/gastos/9.jpeg';
+import taquito10 from '../assets/gastos/10.jpeg';
+import taquito11 from '../assets/gastos/11.jpeg';
+
 export const Proyectos = () => {
 
     const thumbnailsRef = useRef(null);
@@ -34,42 +63,42 @@ export const Proyectos = () => {
         switch ( proyect ) {
             case 'balneario':
                 setSlides([
-                    { src: '../assets/palapas/1.png' },
-                    { src: '../assets/palapas/2.png' },
-                    { src: '../assets/palapas/3.png' },
-                    { src: '../assets/palapas/4.png' },
-                    { src: '../assets/palapas/5.png' },
-                    { src: '../assets/palapas/6.png' },
-                    { src: '../assets/palapas/7.png' },
-                    { src: '../assets/palapas/8.png' },
+                    { src: palapasImg },
+                    { src: palapas2 },
+                    { src: palapas3 },
+                    { src: palapas4 },
+                    { src: palapas5 },
+                    { src: palapas6 },
+                    { src: palapas7 },
+                    { src: palapas8 },
                 ]);
             break;
             case 'mit':
                 setSlides([
-                    { src: './src/assets/mit/1.png' },
-                    { src: './src/assets/mit/2.png' },
-                    { src: './src/assets/mit/3.png' },
-                    { src: './src/assets/mit/4.png' },
-                    { src: './src/assets/mit/5.png' },
-                    { src: './src/assets/mit/6.png' },
-                    { src: './src/assets/mit/7.png' },
-                    { src: './src/assets/mit/8.png' },
-                    { src: './src/assets/mit/9.png' },
+                    { src: mitImg },
+                    { src: mit2 },
+                    { src: mit3 },
+                    { src: mit4 },
+                    { src: mit5 },
+                    { src: mit6 },
+                    { src: mit7 },
+                    { src: mit8 },
+                    { src: mit9 },
                 ]);
             break;
             case 'taquito':
                 setSlides([
-                    { src: './src/assets/gastos/1.jpeg' },
-                    { src: './src/assets/gastos/2.jpeg' },
-                    { src: './src/assets/gastos/3.jpeg' },
-                    { src: './src/assets/gastos/4.jpeg' },
-                    { src: './src/assets/gastos/5.jpeg' },
-                    { src: './src/assets/gastos/6.jpeg' },
-                    { src: './src/assets/gastos/7.jpeg' },
-                    { src: './src/assets/gastos/8.jpeg' },
-                    { src: './src/assets/gastos/9.jpeg' },
-                    { src: './src/assets/gastos/10.jpeg' },
-                    { src: './src/assets/gastos/11.jpeg' },
+                    { src: taquito1 },
+                    { src: taquito2 },
+                    { src: taquito3 },
+                    { src: taquito4 },
+                    { src: taquito5 },
+                    { src: taquito6 },
+                    { src: taquito7 },
+                    { src: taquito8 },
+                    { src: taquito9 },
+                    { src: taquito10 },
+                    { src: taquito11 },
                 ]);
             break;
         }
